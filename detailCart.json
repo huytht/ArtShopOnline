@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "6229b35175c3b58c3e42e793"
+  },
+  "cartId": {
+    "$oid": "6229b35e75c3b58c3e42e794"
+  },
+  "productId": {
+    "$oid": "6229b36975c3b58c3e42e795"
+  },
+  "createBy": "jonny Dang",
+  "createAt": {
+    "$date": "2001-01-31T17:00:00Z"
+  },
+  "updateBy": "jonny Dang",
+  "updateAt": {
+    "$date": "2001-01-31T17:00:00Z"
+  }
+}]

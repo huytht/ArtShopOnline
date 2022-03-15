@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "6229af2d75c3b58c3e42e784"
+  },
+  "name": "admin",
+  "description": "master",
+  "level": "3",
+  "createBy": "admin",
+  "createAt": {
+    "$date": "2019-12-31T17:00:00Z"
+  },
+  "updateBy": "admin",
+  "updateAt": {
+    "$date": "2021-12-31T17:00:00Z"
+  }
+}]

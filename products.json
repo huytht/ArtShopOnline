@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "6229b1af75c3b58c3e42e78f"
+  },
+  "categoryId": {
+    "$oid": "6229b2a775c3b58c3e42e790"
+  },
+  "name": "Tranh Phong Cảnh Chu Nai Vàng Ngơ Ngác",
+  "description": "tranh phong cảnh chú nai vàng ngơ ngác giữa trời xanh bạc ngà",
+  "image": ".src/images/chu-nai-vang.png",
+  "size": "120x160",
+  "price": 999000,
+  "slug": "trang-phong-canh-chu-nai-vang-ngo-ngac",
+  "amount": "20",
+  "createBy": "admin",
+  "createAt": {
+    "$date": "2021-10-31T17:00:00Z"
+  },
+  "updateBy": "admin",
+  "updateAt": {
+    "$date": "2021-12-31T17:00:00Z"
+  },
+  "isDelete": false
+}]

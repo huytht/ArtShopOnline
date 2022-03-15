@@ -1,0 +1,14 @@
+[{
+  "_id": {
+    "$oid": "6229b67c75c3b58c3e42e7a8"
+  },
+  "districtId": {
+    "$oid": "6229b69075c3b58c3e42e7a9"
+  },
+  "name": "4 ward",
+  "type": "ward",
+  "code": "1119",
+  "parentCode": "2009",
+  "isDelete": false,
+  "slug": "4-ward"
+}]

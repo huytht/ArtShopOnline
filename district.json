@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "6229b53775c3b58c3e42e7a3"
+  },
+  "name": "Hồ Chí Minh City",
+  "type": "city",
+  "code": "70001",
+  "parentCode": "null",
+  "isDelete": false,
+  "slug": "ho-chi-minh-city"
+},{
+  "_id": {
+    "$oid": "6229b5e475c3b58c3e42e7a4"
+  },
+  "provinceId": {
+    "$oid": "6229b60575c3b58c3e42e7a5"
+  },
+  "name": "5 district",
+  "type": "district",
+  "code": "2009",
+  "parentCode": "7001",
+  "isDelete": false,
+  "slug": "5-district"
+}]

@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "6229b0e975c3b58c3e42e78b"
+  },
+  "name": "Tranh Phong Cảnh",
+  "description": "Thể loại tranh phong cảnh mang đến màu sắt sinh động giúp cho ngôi nhà của bạn đẹp lên hơn bao giờ hết...",
+  "slug": "trang-phong-canh",
+  "createBy": "admin",
+  "createAt": {
+    "$date": "2021-12-31T17:00:00Z"
+  },
+  "updateBy": "admin",
+  "updateAt": {
+    "$date": "2022-11-30T17:00:00Z"
+  }
+}]

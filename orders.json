@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "6229b40575c3b58c3e42e798"
+  },
+  "userId": {
+    "$oid": "6229b41875c3b58c3e42e799"
+  },
+  "totalAmount": 1299000,
+  "total": 2,
+  "createBy": "jonny Dang",
+  "createAt": {
+    "$date": "2019-12-31T17:17:56Z"
+  },
+  "updateBy": "jonny Dang",
+  "updateAt": {
+    "$date": "2019-12-31T17:00:00Z"
+  },
+  "isDelete": false
+}]

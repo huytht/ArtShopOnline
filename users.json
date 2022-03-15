@@ -1,0 +1,34 @@
+[{
+  "_id": {
+    "$oid": "6229ac9675c3b58c3e42e77d"
+  },
+  "groupId": {
+    "$oid": "6229ad1a75c3b58c3e42e77e"
+  },
+  "provinceId": {
+    "$oid": "6229ad7c75c3b58c3e42e77f"
+  },
+  "districtId": {
+    "$oid": "6229ad8b75c3b58c3e42e780"
+  },
+  "wardId": {
+    "$oid": "6229ad9575c3b58c3e42e781"
+  },
+  "email": "tengu.agile@agile.com",
+  "password": "$2b$10$vBMJl3NMUQjZgejuV/gbmubOmECNKjc29UaQ6MpcojR3dOjv3gJA6",
+  "fullname": "agile tengu",
+  "birthday": {
+    "$date": "2022-03-09T17:00:00Z"
+  },
+  "address": "280 An Duong Vuong street 5 ward 11 district Ho Chi Minh City",
+  "phone": "+84123456789",
+  "isDelete": false,
+  "createBy": "admin",
+  "createAt": {
+    "$date": "2022-03-08T17:00:00Z"
+  },
+  "updateBy": "admin",
+  "updateAt": {
+    "$date": "2020-02-29T17:00:00Z"
+  }
+}]
