@@ -1,0 +1,38 @@
+[
+    {
+        "display_name": "Dashboard",
+        "route": "/admin",
+        "icon": "bx bx-category-alt"
+    },
+    {
+        "display_name": "Customers",
+        "route": "/admin/customers",
+        "icon": "bx bx-user-pin"
+    },
+    {
+        "display_name": "Products",
+        "route": "/admin/products",
+        "icon": "bx bx-package"
+    },
+    {
+        "display_name": "Orders",
+        "route": "/admin/orders",
+        "icon": "bx bx-cart"
+    },
+    {
+        "display_name": "Top Customers",
+        "route": "/admin/add",
+        "icon": "bx bx-list-ol"
+    },
+
+    {
+        "display_name": "Profile",
+        "route": "/admin/profile",
+        "icon": "bx bx-user"
+    },
+    {
+        "display_name": "Setting Password",
+        "route": "/admin/settings",
+        "icon": "bx bx-cog"
+    }
+]

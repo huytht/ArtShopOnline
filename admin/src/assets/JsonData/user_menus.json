@@ -1,0 +1,18 @@
+[
+    {
+        "icon": "bx bx-user",
+        "content": "Profile",
+        "link":"/admin/profile"
+    },
+    
+    {
+        "icon": "bx bx-cog",
+        "content": "Settings",
+        "link":"/admin/settings"
+    },
+    {
+        "icon": "bx bx-log-out-circle bx-rotate-180",
+        "content": "Logout",
+        "link":"/"
+    }
+]
