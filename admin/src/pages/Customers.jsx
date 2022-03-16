@@ -15,14 +15,22 @@ const Customers = () => {
       }, []);
   });
 
+  // const [tableData, setTableData] = useState([
+  //     {name: "khach1", birthday:"23/10/2222", email:"abcd@gmail.com", phone:"0921213124", address: "33, binh tan, Ho Chi Minh", account:"user1", password:"12345" },
+  //     {name: "khach2", birthday:"23/10/2222" ,email:"abcd@gmail.com", phone:"0921213124", address: "33, binh tan, Ho Chi Minh", account:"user1", password:"12345" },
+  //     {name: "khach11", birthday:"23/10/2222" ,email:"abcd@gmail.com", phone:"0921213124", address: "33, binh tan, Ho Chi Minh", account:"user1", password:"12345" },
+  //     {name: "khach31", birthday:"23/10/2222" ,email:"abcd@gmail.com", phone:"0921213124", address: "33, binh tan, Ho Chi Minh", account:"user1", password:"12345" },
+  //   ])
   const columns = [
     { title: "Fisrt Name", field: "firstName"} ,
     { title: "Last Name", field: "lastName"} ,
+    // { title: "Birthday", field: "birthday" },
     { title: "Email", field: "email" },
     { title: "Phone", field: "phone" },
     { title: "Total Oders", field: "total_orders" },
     { title: "Total Spending", field: "total_spending" },
     { title: "Address", field: "address" },
+    // { title: "Account", field: "account" },
   ];
 
   return (

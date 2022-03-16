@@ -5,8 +5,6 @@ const Products = () => {
       <div className="card">
         <div className="card__body">
          
-    
-         
         </div>
       </div>
     </div>
