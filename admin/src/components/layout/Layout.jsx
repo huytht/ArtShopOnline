@@ -2,14 +2,15 @@ import React from 'react'
 //import React, {useEffect, useState} from 'react'
 import './layout.css'
 
-import Display from './Diplay'
+import AppRouter from '../AppRouter'
+
 
 const Layout = () => {
 
     return (
 
-            // <AppRouter/>
-            <Display/>
+            <AppRouter/>
+            
     )
 }
 

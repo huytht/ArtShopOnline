@@ -1,0 +1,19 @@
+
+body{
+
+   
+ 
+    background: linear-gradient(120deg, #2980b9, #8e44ad);
+   
+}
+.paperStyle {
+    padding: 20px;
+    height: 400px;
+    width: 20%;
+    margin: 20px auto;
+}
+
+
+.btnStyle{
+    margin: 8px 0;
+}
