@@ -12,8 +12,8 @@ const Customers = () => {
       .get(getCustomersUrl, { headers: { token: token } })
       .then((response) => {
         setCustomers(response.data);
-      }, []);
-  });
+      });
+  }, []);
 
   // const [tableData, setTableData] = useState([
   //     {name: "khach1", birthday:"23/10/2222", email:"abcd@gmail.com", phone:"0921213124", address: "33, binh tan, Ho Chi Minh", account:"user1", password:"12345" },
@@ -57,7 +57,7 @@ const Customers = () => {
               showFirstLastPageButtons: false,
               paginationPosition: "both",
               exportButton: true,
-              //exportAllData: true,
+              exportAllData: true,
               exportFileName: "TableData",
               addRowPosition: "first",
               actionsColumnIndex: -1,
@@ -66,7 +66,7 @@ const Customers = () => {
               showSelectAllCheckbox: false,
               showTextRowsSelected: false,
               selectionProps: (rowData) => ({
-                disabled: rowData.name == null,
+                disabled: rowData.firstName == null,
                 // color:"primary"
               }),
               grouping: true,

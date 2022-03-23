@@ -14,6 +14,7 @@ const Routes = () => {
             <Route path='/admin/customers' component={Customers}/>
             <Route path='/admin/products' component={Products}/>
             <Route path='/admin/orders' component={Orders}/>
+           
             <Route path='/admin/add' component={Add}/>
             <Route path='/admin/profile' component={Profile}/>
             <Route path='/admin/settings' component={Settings}/>
