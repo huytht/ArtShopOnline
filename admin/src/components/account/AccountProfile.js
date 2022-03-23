@@ -12,12 +12,12 @@ import {
 import avt from "../../assets/images/admin.png";
 import { useState, useEffect } from "react";
 import axios from 'axios'
-const user = {
-  avatar: avt,
-  city: "Thành phố Hồ Chí Minh",
-  country: "Việt Nam",
-  name: "Nguyên Con Heo",
-};
+// const user = {
+//   avatar: avt,
+//   city: "Thành phố Hồ Chí Minh",
+//   country: "Việt Nam",
+//   name: "Nguyên Con Heo",
+// };
 
 const AccountProfile = (props) => {
   const id = localStorage.getItem("id").toString();
