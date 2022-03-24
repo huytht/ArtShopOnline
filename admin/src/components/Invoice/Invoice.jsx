@@ -170,11 +170,11 @@ const LayoutSample = ({detailOrder}) => {
 						  {idx + 1}								
 						 </TableCell>
                         <TableCell width="40%">
-						{product.productId.title}
+						{product.productId?.title}
 							
 							</TableCell>
                         <TableCell width="20%" align="right">
-						{product.productId.price}
+						{product.productId?.price}
                         </TableCell>
                         <TableCell width="10%" align="right">
                          
@@ -182,7 +182,7 @@ const LayoutSample = ({detailOrder}) => {
                         </TableCell>
                         <TableCell width="20%" align="right">
                           {/* {TotalPrice(item.price, item.quantity)} */}
-						  {product.quantity * product.productId.price}
+						  {product.quantity * product.productId?.price}
                         </TableCell>
                       </TableRow>
 					  );
