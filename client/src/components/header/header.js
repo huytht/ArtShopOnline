@@ -179,17 +179,17 @@ const Header = () => {
             <Box display="flex" justifyContent="space-between">
                 <Container maxWidth="md" className="header__bot__container">
                     <Box display="flex" width="60%" justifyContent="space-between" mt={-1}>
-                        <Link className="header__bot__text">HOME</Link>
-                        <Link className="header__bot__text">PRODUCT</Link>
-                        <Link className="header__bot__text">ABOUT US</Link>
-                        <Link className="header__bot__text">CONTACT</Link>
-                        <Link className="header__bot__text hot__sale">HOTSALE</Link>
+                        <Link to="/" className="header__bot__text">HOME</Link>
+                        <Link to="/product" className="header__bot__text">PRODUCT</Link>
+                        <Link to="/about-us" className="header__bot__text">ABOUT US</Link>
+                        <Link to="/contact" className="header__bot__text">CONTACT</Link>
+                        <Link to="/hotsale" className="header__bot__text hot__sale">HOTSALE</Link>
                     </Box>
                     <Box display="flex" justifyContent="flex-end">
                         <IconButton onClick={onOpenSearch}>
                             <SearchIcon />
                         </IconButton>
-                        <Link>
+                        <Link to="/cart">
                             <IconButton aria-label="cart">
                                 <Badge badgeContent={carts.allQuantity} color="info">
                                     <ShoppingCartIcon />
