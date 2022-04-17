@@ -80,14 +80,14 @@ const Dashboard = () => {
         <div className="col-5">
           <div className="card">
             <div className="card__header">
-              <h3>top customers</h3>
+              <h3>Top customers</h3>
             </div>
             <div className="card__body1">             
-              <table className="tb1">
+              <table className="tb1 col-12">
                 <thead className="the1">
                   <tr className="tb_left">
-                  <th className="th1"><a>ID</a></th>
-                    <thc lassName="th1"><a>Username</a></thc>
+                    <th className="th1"><a>ID</a></th>
+                    <th className="th1"><a>Username</a></th>
                     <th className="th1"><a>Total Spending</a></th>
                   </tr>
                 </thead>
@@ -101,13 +101,10 @@ const Dashboard = () => {
                   ))}
                 </tbody>
               </table>
-
-
-              
-                
+            
             </div>
             <div className="card__footer">
-              <Link to="/admin/add"><u style={{color:"red"}}>view all</u></Link>
+              <Link to="/admin/customers"><u style={{color:"red"}}>view all</u></Link>
             </div>
           </div>
         </div>
@@ -117,10 +114,8 @@ const Dashboard = () => {
               <h3>latest orders</h3>
             </div>
 
-            <div className="card__body1">
-                  
-
-                  <table className="tb1">
+            <div className="card__body1 ">
+                  <table className="tb1 col-12">
                     <thead className="the1">
                       <tr>
                         <th className="th1">ID</th>

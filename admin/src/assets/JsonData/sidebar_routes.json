@@ -19,12 +19,7 @@
         "route": "/admin/orders",
         "icon": "bx bx-cart"
     },
-    {
-        "display_name": "Top Customers",
-        "route": "/admin/add",
-        "icon": "bx bx-list-ol"
-    },
-
+    
     {
         "display_name": "Profile",
         "route": "/admin/profile",
