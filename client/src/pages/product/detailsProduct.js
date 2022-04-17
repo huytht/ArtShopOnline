@@ -46,7 +46,7 @@ const DetailsProduct = () => {
     }
 
     useEffect(() => {
-        const api = "https://tengu-nodejs.herokuapp.com/api/product/find/61b00ca3eaa1779875778a88"
+        const api = "https://tengu-nodejs.herokuapp.com/api/product/find/" + id
         axios.get(api)
             .then(result => setProduct(result.data.product))
             .catch(error => {
