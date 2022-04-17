@@ -27,11 +27,12 @@ const Infomation = () => {
             </Typography>
             <Box display="flex" sx={{ marginX: 8 }}>
                 <Paper elevation={2} sx={{ width: 250, height: 150, p: 2, textAlign: "center", mr: 5 }}>
-                    <Avatar sx={{ width: 100, height: 100, marginX: "auto", mb: 1 }}>K</Avatar>
+                    <Avatar sx={{ width: 100, height: 100, marginX: "auto", mb: 1 }}>P</Avatar>
                     <Typography
                         fontSize={24}
                     >
-                        {Account.account.firstName + " " + Account.account.lastName}
+                        {/* {Account.account.firstName + " " + Account.account.lastName} */}
+                        Lê Khánh Phương
                     </Typography>
                 </Paper>
                 <Box>
@@ -40,34 +41,42 @@ const Infomation = () => {
                             required
                             size="small"
                             label="Họ"
-                            value={fName}
+                            // value={fName}
+                            value="Lê"
                             onChange={(e, value) => setFName(value)}
                             sx={{ width: "49%" }}
+                            InputLabelProps={{ shrink: true }}
                         />
                         <TextField
                             required
                             size="small"
                             label="Tên"
-                            value={lName}
+                            // value={lName}
+                            value="Khánh Phương"
                             onChange={(e, value) => setLName(value)}
                             sx={{ width: "49%" }}
+                            InputLabelProps={{ shrink: true }}
                         />
                     </Box>
                     <TextField
                         required
                         size="small"
                         label="Số điện thoại"
-                        value={phone}
+                        // value={phone}
+                        value="0123456789"
                         onChange={(e, value) => setPhone(value)}
                         sx={{ width: 1, marginBottom: 2 }}
+                        InputLabelProps={{ shrink: true }}
                     />
                     <TextField
                         required
                         size="small"
                         label="Email"
-                        value={email}
+                        // value={email}
+                        value="lkphuong@gmail.com"
                         onChange={(e, value) => setEmail(value)}
                         sx={{ width: 1, marginBottom: 2 }}
+                        InputLabelProps={{ shrink: true }}
                     />
                     {/* <TextField
                         size="small"
@@ -82,6 +91,7 @@ const Infomation = () => {
                         sx={{ width: 1, marginBottom: 2 }}
                         options={Data}
                         value={province}
+                        // value="Phú Yên"
                         onChange={(e, value) => setProvince(value)}
                         getOptionLabel={(option) => option.name}
                         renderInput={(params) => (
@@ -90,12 +100,14 @@ const Infomation = () => {
                                 label="Tỉnh thành"
                             />
                         )}
+                        InputLabelProps={{ shrink: true }}
                     />
                     <Autocomplete
                         disabled={province === null ? true : false}
                         id="district-select"
                         size="small"
                         value={district}
+                        // value="Tuy Hòa"
                         sx={{ width: 1, marginBottom: 2 }}
                         options={province === null ? Data : province.districts}
                         onChange={(e, value) => setDistrict(value)}
@@ -106,12 +118,14 @@ const Infomation = () => {
                                 label="Quận Huyện"
                             />
                         )}
+                        InputLabelProps={{ shrink: true }}
                     />
                     <Autocomplete
                         disabled={district === null ? true : false}
                         id="ward-select"
                         size="small"
                         value={ward}
+                        // value=". . ."
                         sx={{ width: 1, marginBottom: 2 }}
                         options={district === null ? Data : district.wards}
                         onChange={(e, value) => setWard(value)}
@@ -122,6 +136,7 @@ const Infomation = () => {
                                 label="Xã Phường"
                             />
                         )}
+                        InputLabelProps={{ shrink: true }}
                     />
                     <Box display="flex" justifyContent="flex-end">
                         <Button
