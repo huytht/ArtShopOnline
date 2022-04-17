@@ -17,13 +17,13 @@ const App = () => {
             <Header />
             <Switch>
                 <Route exact path="/" component={Home} />
-                {/* <Route exact path="/product" component={Product} />
+                <Route exact path="/product" component={Product} />
                 <Route path="/cart" component={Cart} />
                 <Route path="/payments" component={Payments} />
                 <Route path="/about-us" component={AboutUs} />
                 <Route path="/contact" component={Contact} />
                 <Route path="/hotsale" component={HotSale} />
-                <Route path="/product/:id" component={DetailsProduct} /> */}
+                <Route path="/product/:id" component={DetailsProduct} />
                 <Route path="/account" component={Account} />
             </Switch>
         </BrowserRouter>
